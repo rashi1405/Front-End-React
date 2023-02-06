@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+button {
+  color: white;
+  background-color: grey;
+  width: 200px;
+  padding: 10px;
+  font-size: large;
+  border-radius: 10px;
+  margin: 30px auto;
+  display: block;
+}
+
+table {
+  margin: 0 10%;
+  width: 80%;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px solid gray;
+  text-align: center;
+  padding: 10px;
+}
+#one {
+  width: 10%;
+}
+#two {
+  width: 30%;
+}
+#three {
+  width: 50%;
+}
