@@ -1,0 +1,49 @@
+* {
+  background-color: gray;
+}
+div {
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.first {
+  display: flex;
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  background-color: rgb(53, 53, 233);
+  position: absolute;
+  top: 100px;
+  left: 200px;
+}
+
+.second {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-color: powderblue;
+  position: absolute;
+  top: 150px;
+  left: 250px;
+}
+.third {
+  display: flex;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: aqua;
+  position: absolute;
+  top: 200px;
+  left: 300px;
+}
+
+.first:hover,
+.second:hover,
+.third:hover {
+  background-color: black;
+  cursor: pointer;
+}
