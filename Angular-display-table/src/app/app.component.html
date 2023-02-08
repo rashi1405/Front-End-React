@@ -1,0 +1,14 @@
+<button (click)="disp()">Click to display</button>
+
+<table border="1" *ngIf="show">
+  <tr>
+    <td>Id</td>
+    <td>Title</td>
+    <td>Desc</td>
+  </tr>
+  <tr *ngFor="let user of userData">
+    <td>{{ user.id }}</td>
+    <td>{{ user.title }}</td>
+    <td>{{ user.body }}</td>
+  </tr>
+</table>
