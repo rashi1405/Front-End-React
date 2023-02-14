@@ -1,0 +1,14 @@
+<button>click here</button>
+<button>click here</button>
+<table border="1">
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Desc</th>
+  </tr>
+  <tr *ngFor="let user of userData">
+    <td>{{ user.id }}</td>
+    <td>{{ user.title }}</td>
+    <td>{{ user.body }}</td>
+  </tr>
+</table>
