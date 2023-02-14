@@ -1,0 +1,98 @@
+[
+  {
+    "userId": 1,
+    "id": 1,
+    "title": "Rashi",
+    "body": 20
+  },
+  {
+    "userId": 1,
+    "id": 2,
+    "title": "Sakshi",
+    "body": 16
+  },
+  {
+    "userId": 1,
+    "id": 3,
+    "title": "Shaily",
+    "body": 23
+  },
+  {
+    "userId": 1,
+    "id": 4,
+    "title": "Samyak",
+    "body": 23
+  },
+  {
+    "userId": 1,
+    "id": 5,
+    "title": "Rishita",
+    "body": 22
+  },
+  {
+    "userId": 1,
+    "id": 6,
+    "title": "Ritik",
+    "body": 22
+  },
+  {
+    "userId": 1,
+    "id": 7,
+    "title": "Priyanshi",
+    "body": 21
+  },
+  {
+    "userId": 1,
+    "id": 8,
+    "title": "Rounak",
+    "body": 18
+  },
+  {
+    "userId": 1,
+    "id": 9,
+    "title": "Ram",
+    "body": 24
+  },
+  {
+    "userId": 1,
+    "id": 10,
+    "title": "Samarth",
+    "body": 21
+  },
+  {
+    "userId": 2,
+    "id": 11,
+    "title": "Bharti",
+    "body": 22
+  },
+  {
+    "userId": 2,
+    "id": 12,
+    "title": "Divya",
+    "body": 23
+  },
+  {
+    "userId": 2,
+    "id": 13,
+    "title": "Ankur",
+    "body": 21
+  },
+  {
+    "userId": 2,
+    "id": 14,
+    "title": "Rani",
+    "body": 26
+  },
+  {
+    "userId": 2,
+    "id": 15,
+    "title": "Chanchal",
+    "body": 28
+  },
+  {
+    "userId": 2,
+    "id": 16,
+    "title": "Shruti",
+    "body": 24
+  }
+]
