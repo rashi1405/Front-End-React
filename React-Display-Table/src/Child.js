@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useState } from 'react';
 import './App.css';
-import Records from './records.json';
 
 export default function Child() {
+  const [data, setData] = useState([]);
+
+  useEffect(() => {
+    fetch('https://jsonplaceholder.typicode.com/posts').then((result) => {
+      result.json().then((resp) => {
+        setData(resp);
+      });
+    });
+  }, []);
+
   return (
     <div>
       <table>
@@ -14,7 +24,7 @@ export default function Child() {
           </tr>
         </thead>
         <tbody>
-          {Records.map((record) => {
+          {data.map((record) => {
             return (
               <tr>
                 <td id="one">{record.id}</td>
